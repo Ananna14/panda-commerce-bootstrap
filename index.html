@@ -8,10 +8,12 @@
     <title>Panda</title>
     <!-- css-bootstrap-link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom-css  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img width="" src="images/logo.png" alt="">
@@ -27,13 +29,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shose</a>
+                        <a class="nav-link" href="#shoes">Shose</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#Backpack">Backpack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Subscrib</a>
+                        <a class="nav-link" href="#Subscrib">Subscrib</a>
                     </li>
                     <form class="d-flex">
                         <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
@@ -48,14 +50,14 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                         <div class="col-lg-7">
                             <h1>Mi LED TV 4A PRO 32</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
                                 do amet sint. Velit officia consequat duis enim velit mollit.
                                 Exercitation veniam consequat sunt nostrud amet.</p>
                             <h1>$1289</h1>
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -63,14 +65,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                         <div class="col-lg-7">
                             <h1>Mi LED TV 4A PRO 32</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
                                 do amet sint. Velit officia consequat duis enim velit mollit.
                                 Exercitation veniam consequat sunt nostrud amet.</p>
                             <h1>$1289</h1>
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -78,14 +80,14 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                    <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                         <div class="col-lg-7">
                             <h1>Mi LED TV 4A PRO 32</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
                                 do amet sint. Velit officia consequat duis enim velit mollit.
                                 Exercitation veniam consequat sunt nostrud amet.</p>
                             <h1>$1289</h1>
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -105,7 +107,7 @@
             </div>
     </section>
     <main>
-        <section class="container my-5">
+        <section class="container my-5 catagories">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="p-3 border bg-warning d-flex align-items-center  justify-content-between rounded-3">
@@ -130,7 +132,8 @@
 
             </div>
         </section>
-        <section class="container">
+        <!-- Shoes-section  -->
+        <section class="container" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -142,7 +145,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
@@ -155,7 +158,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
@@ -169,13 +172,14 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container mt-5">
+        <!-- bags-section  -->
+        <section class="container my-5" id="Backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -187,7 +191,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
@@ -200,7 +204,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
@@ -214,17 +218,26 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">By Now</button>
+                            <button class="panda-btn-by-now">By Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section style="height:300px;" id="Subscrib"
+            class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" placeholder="Your Email"><br><br>
+                <button class="panda-btn-by-now">SUBMIT</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="my-5 text-center">
+        <p>Copyright © 2022 Football</p>
     </footer>
-    <!-- js link  -->
+    <!-- bootstrap-script -->
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
